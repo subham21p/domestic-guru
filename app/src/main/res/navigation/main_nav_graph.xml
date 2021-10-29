@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.app.domesticguru.ui.fragment.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen">
+        <action
+            android:id="@+id/action_splashScreenFragment_to_logInFragment"
+            app:destination="@id/navigation" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeFragment"
+            app:destination="@id/navigation2" />
+    </fragment>
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/logInFragment">
+        <fragment
+            android:id="@+id/logInFragment"
+            android:name="com.app.domesticguru.ui.fragment.LogInFragment"
+            android:label="fragment_log_in"
+            tools:layout="@layout/fragment_log_in">
+            <action
+                android:id="@+id/action_logInFragment_to_signUpFragment2"
+                app:destination="@id/signUpFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/signUpFragment"
+            android:name="com.app.domesticguru.ui.fragment.SignUpFragment"
+            android:label="fragment_sign_up"
+            tools:layout="@layout/fragment_sign_up">
+            <action
+                android:id="@+id/action_signUpFragment_to_logInFragment2"
+                app:destination="@id/logInFragment"
+                app:popUpTo="@id/logInFragment"
+                app:popUpToInclusive="true" />
+        </fragment>
+    </navigation>
+    <navigation android:id="@+id/navigation2"
+        app:startDestination="@id/homeFragment2">
+        <fragment
+            android:id="@+id/homeFragment2"
+            android:name="com.app.domesticguru.ui.fragment.HomeFragment"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home" />
+    </navigation>
+</navigation>

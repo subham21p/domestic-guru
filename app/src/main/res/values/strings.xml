@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DomesticGuru</string>
+
+    <string name="no_interner_connection">No Internet Connection</string>
+    <string name="login">Log In</string>
+    <string name="dntHaveAcc">Don\'t have an account yet?</string>
+    <string name="fgtPass">Forgot Password?</string>
+    <string name="signup">Sign Up</string>
+    <string name="signupNow">Sign Up Now!</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="myAds">My Ads</string>
+    <string name="home">Home</string>
+    <string name="responses">Responses</string>
+    <string name="bookings">Bookings</string>
+    <string name="tasker">Tasker</string>
+    <string name="customer">Customer</string>
+    <string name="ftName">First Name</string>
+    <string name="ltName">Last Name</string>
+    <string name="address">Address</string>
+    <string name="phNo">Phone No</string>
+    <string name="emailAdd">Email Address</string>
+    <string name="pass">Password</string>
+    <string name="cnfPass">Confirm Password</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="alHvAcc">Already have an account?</string>
+    <string name="invalid_mobile_or_password">Invalid Mobile Or Password</string>
+    <string name="empty_field">Empty Field</string>
+
+
+
+
+
+</resources>
