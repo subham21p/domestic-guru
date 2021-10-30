@@ -24,6 +24,13 @@ import com.app.domesticguru.utils.NetworkStatus
 import com.app.domesticguru.utils.SharedPreferenceManager
 import java.util.Observer
 
+<<<<<<< HEAD
+=======
+// TODO: Rename parameter arguments, choose names that match
+// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+/*private const val ARG_PARAM1 = "param1"
+private const val ARG_PARAM2 = "param2"*/
+>>>>>>> 58bce6f616d69b4db2e1286b660a8f633cb0b24a
 
 
 class LogInFragment : Fragment() {
